@@ -1,9 +1,11 @@
 # CogniSense: Smart AI-Driven Electrical Fault Monitoring System
 
-##🔹 Project Overview
+## 🔹 Project Overview
 This project implements a smart AI-driven system to monitor electrical faults like earth leakage, continuity, and resistance in real time. It moves beyond traditional, manual checks by using an embedded AI model to predict potential failures, thus preventing safety hazards, equipment failures, and inefficient maintenance.
 
-🔹 Features
+
+
+## 🔹 Features
 AI-Driven Prediction: Utilizes a machine learning model for predictive maintenance.
 
 Real-time Monitoring: Continuously analyzes data from sensors for instant fault detection.
@@ -16,7 +18,10 @@ Scalable Design: The system can be expanded to monitor multiple circuits and lar
 
 Cost & Safety: Reduces maintenance costs and enhances safety by preventing electrical hazards.
 
-🔹 System Architecture
+
+
+## 🔹 System Architecture
+```
 [Electrical Panel/Circuit]
         ↓ (Sensors: ACS712, etc.)
 [ Microcontroller (ESP32) ]
@@ -24,8 +29,12 @@ Cost & Safety: Reduces maintenance costs and enhances safety by preventing elect
 [ Raspberry Pi / Mini-PC (Central Hub) ]
         ↓ (AI Model & Dashboard)
 [ User (via Web UI) ]
-🔹 Pseudo Code
-Python
+
+
+```
+
+## 🔹 Pseudo Code
+```Python
 
 Start Central Hub
 Initialize sensors and communication (MQTT)
