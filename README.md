@@ -54,44 +54,51 @@ Loop (continuously):
     Display real-time and historical data on the dashboard
 
 End Loop
-🔹 Software Stack
-Raspberry Pi OS / Linux
+```
 
-Python 3
+## 🔹 Software Stack
 
-AI/ML Libraries: Scikit-learn or TensorFlow Lite
+---Raspberry Pi OS / Linux
 
-Communication: MQTT (e.g., Paho-MQTT)
+---Python 3
 
-Backend: Flask / FastAPI
+---AI/ML Libraries: Scikit-learn or TensorFlow Lite
 
-Database: SQLite (local storage)
+---Communication: MQTT (e.g., Paho-MQTT)
 
-Frontend: HTML/JS/React (for the UI dashboard)
+---Backend: Flask / FastAPI
 
-🔹 References & Research Work
-AI & Fault Detection Research:
+---Database: SQLite (local storage)
 
-A study on using machine learning for fault diagnosis in electrical systems.
+---Frontend: HTML/JS/React (for the UI dashboard)
 
-Research papers on predictive maintenance in electrical power systems.
+
+## 🔹 References & Research Work
+
+---AI & Fault Detection Research:
+
+---A study on using machine learning for fault diagnosis in electrical systems.
+
+---Research papers on predictive maintenance in electrical power systems.
 
 Technical Libraries & Hardware:
 
-TensorFlow for Anomaly Detection: Guides on using TensorFlow for time-series anomaly detection.
+---TensorFlow for Anomaly Detection: Guides on using TensorFlow for time-series anomaly detection.
 
-ACS712 Current Sensor: Documentation for commonly used current sensors that can interface with a microcontroller or Raspberry Pi.
+---ACS712 Current Sensor: Documentation for commonly used current sensors that can interface with a microcontroller or Raspberry Pi.
 
-Paho-MQTT Python Client: Documentation for the Python MQTT client used for communication between devices.
+---Paho-MQTT Python Client: Documentation for the Python MQTT client used for communication between devices.
 
-🔹 Future Enhancements
-Incorporate more sensor types (e.g., temperature, humidity) for a more comprehensive analysis.
+## 🔹 Future Enhancements
 
-Develop a mobile application for on-the-go monitoring and alerts.
 
-Implement a user authentication and multi-user system for different roles (e.g., administrator, technician).
+--Incorporate more sensor types (e.g., temperature, humidity) for a more comprehensive analysis.
 
-Integrate with a notification service (e.g., SMS or email) for critical alerts.
+--Develop a mobile application for on-the-go monitoring and alerts.
 
-🔹 Team
+--Implement a user authentication and multi-user system for different roles (e.g., administrator, technician).
+
+--Integrate with a notification service (e.g., SMS or email) for critical alerts.
+
+## 🔹 Team
 Hackathon Project by [Cogni Crew]
